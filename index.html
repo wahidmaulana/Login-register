@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar by.ED</title>
+    <title>Navbar by. Me</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -15,7 +15,7 @@
         <div class="line"></div>
       </div>
       <ul class="nav-link">
-        <h1>lana</h1>
+        <h1>Lana</h1>
         <li><a href="">home</a></li>
         <li><a href="">about</a></li>
         <li><a href="">contact</a></li>
@@ -23,10 +23,77 @@
       </ul>
     </nav>
 
-    <section class="landing">
-      <h1>.developedbyed</h1>
-    </section>
+    <div class="container">
+      <div class="wrapper">
+        <span class="close-btn"><ion-icon name="close-circle"></ion-icon></span>
+        <div class="form-login">
+          <h2>Login</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" name="" id="" required />
+              <label for="email">email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" name="" id="" required />
+              <label for="email">password</label>
+            </div>
+
+            <div class="remember-forgot">
+              <label for="">
+                <input type="checkbox" name="" id="" /> Remember me
+              </label>
+              <a href="#">Forgot password?</a>
+            </div>
+            <button class="btn-submit" type="submit">Login</button>
+            <div class="register-link login-register">
+              <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-register">
+          <h2>Registration</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="person"></ion-icon></span>
+              <input type="text" name="" id="" required />
+              <label for="username">username</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" name="" id="" required />
+              <label for="email">email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" name="" id="" required />
+              <label for="email">password</label>
+            </div>
+
+            <div class="remember-forgot">
+              <label for="">
+                <input type="checkbox" name="" id="" /> I agree to the terms &
+                conditions
+              </label>
+            </div>
+            <button class="btn-submit" type="submit">Create</button>
+            <div class="login-link login-register">
+              <p>Already have an account? <a href="#">Login</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script src="main.js"></script>
+    <!-- ionic icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
